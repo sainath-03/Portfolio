@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sainath Reddy - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #001133;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+            background-color: #010126;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .developer-icon {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .developer-icon img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .container {
+            padding: 20px 30px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h1, h2 {
+            color: #1E90FF;
+        }
+
+        .projects, .skills, .certifications {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .project, .skill, .certification {
+            background-color: #011d4d;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .contact a {
+            color: #1E90FF;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Sainath Reddy</div>
+            <div class="developer-icon">
+                <img src="bg.png" alt="Developer Icon">
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="home">
+            <h1>Hi, I'm Sainath Reddy</h1>
+            <p>A passionate developer with expertise in Artificial Intelligence, Machine Learning, and Web Development.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Currently pursuing a degree in Artificial Intelligence and Data Science at B V Raju Institute of Technology (8.15 CGPA).</p>
+        </section>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div>
+                <h3>Atharvo India Pvt. Ltd.</h3>
+                <p><strong>Machine Learning Intern</strong> (Aug 2024 - Sep 2024)</p>
+                <p>Implemented machine learning models and algorithms during a one-month internship.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>ChatPDF</h3>
+                    <p>Interactive web application for PDF content extraction and Q&A using Google Gemini API.</p>
+                    <p><strong>Technologies:</strong> Streamlit, PyPDF2, Langchain, FAISS, Google GenAI</p>
+                </div>
+                <div class="project">
+                    <h3>NoteShala</h3>
+                    <p>A web application for students to upload and share course-related notes.</p>
+                    <p><strong>Technologies:</strong> Python, SQL, Flask, HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill"><strong>Programming:</strong> Java, Python</div>
+                <div class="skill"><strong>Front-end:</strong> HTML, CSS</div>
+                <div class="skill"><strong>Domains:</strong> Machine Learning, Data Science, NLP</div>
+                <div class="skill"><strong>Database:</strong> SQL</div>
+            </div>
+        </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certifications">
+                <div class="certification">Cloud Computing Workshop - IIT Bombay</div>
+                <div class="certification">Machine Learning - AWS Academy</div>
+                <div class="certification">DSA Certification - Smart Interviews</div>
+                <div class="certification">Soft Skills - NPTEL</div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:kuchurusainathreddy@gmail.com">kuchurusainathreddy@gmail.com</a></p>
+            <p>Phone: <a href="tel:7995233935">7995233935</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/kuchuru-sainath-reddy/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/sainath-03" target="_blank">GitHub</a>
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
